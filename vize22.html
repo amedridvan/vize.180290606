@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="vize22.css">
+    
+    
+    </head>
+<body>
+ <center>  <form action="process.php" method="get">
+   
+     <fieldset><legend>Rigister</legend> <p><label for="username"> ad:</label> <input type="text" name ="username" required placeholder="name"></p>
+      <p><label for="second name">soyad </label> <input type="text" name ="surname" required placeholder="surname"></p>
+     <p><label for="password"> sifre:</label> <input type="password" name="password" required placeholder="tape password"></p>
+         <p>dogum tarihi: <input type="date" required></p>
+     <p>cins: </p>
+     <p><label for="kadin"> erkek</label> <input type="radio" name ="gender" value="male" id="male" ><label for="kadin"> kadin</label> <input type="radio" name ="gender" value="female" id="female" ></p>
+<p> <label for="country">ulke: </label><select name="country" onclick="">
+     <option value="0" ></option>
+    <option value="1">TURKIYE</option>
+     <option value="2">ALMANYA</option>
+     <option value="3">SYRIA</option>
+     <option value="4">UAE</option>
+     <option value="5">UK</option>
+     <option value="6">Eygpt</option>
+     <option value="7">ARGENTINA</option>
+     <option value="8">BRAZIL</option>
+     <option value="9">RUSSIA</option>
+     
+     </select></p>
+     <P> <input type="checkbox" name="terms" value="oo"><label for="oo">
+    bilgilerim pyalsmasina kabul ediyorum</label>
+     </P>
+     <P> <input type="checkbox" name="terms" value="o"><label for="o">
+tum bilgilerim doru girildi</label>
+     </P>
+         <p><button type="submit">kayit yap</button></p>
+   </fieldset> </form>
+    </center> 
+    
+    </body>
+</html>
